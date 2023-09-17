@@ -1,0 +1,35 @@
+div.menu{
+    width: 100%;
+    background-color: #2b2b2b;
+}
+
+div.menu>nav{
+    width: inherit;
+}
+
+div.menu>nav>ul{
+    width: inherit;
+    list-style: none;
+    /* overflow: hidden; */
+}
+
+div.menu>nav>ul>li{
+    width: auto;
+    height: 40px;
+    /* float: right; */
+    /* padding-left: 20px; */
+    box-sizing: border-box;
+}
+
+div.menu>nav>ul>li>a{
+    display: block;
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: Yekan;
+    font-size: 14px;
+    line-height: 40px;
+}
+
+div.menu>nav>ul>li>a:hover{
+    background-color: goldenrod;
+}

@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body, html{
+    direction: rtl;
+}
+
+@font-face {
+    font-family: Yekan;
+    src: url(../fonts/YekanBakhFa-En-04-Regular.woff);
+}
+
+div.wrapper{
+    width: 100%;
+}
